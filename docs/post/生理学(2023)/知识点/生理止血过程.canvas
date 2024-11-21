@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"36fe06ab9f57f315","x":-560,"y":-40,"width":100,"height":60,"type":"text","text":"受伤"},
+		{"id":"e1c2a4d9113e161b","x":-360,"y":-40,"width":185,"height":60,"type":"text","text":"小血管收缩"},
+		{"id":"3864cb5d2ff4b41b","x":-585,"y":-280,"width":250,"height":60,"type":"text","text":"生理止血过程"},
+		{"id":"a5a85c6df5d911a5","x":-427,"y":-140,"width":320,"height":50,"type":"text","text":"破损不大即可使血管封闭"},
+		{"id":"2034dc84799dfb1f","x":-560,"y":120,"width":325,"height":50,"type":"text","text":"快速形成血凝块闭塞伤口"},
+		{"id":"388f370f81d07ad5","x":-175,"y":120,"width":345,"height":50,"type":"text","text":"生理抗凝血和纤维蛋白溶解"},
+		{"id":"02a2175d33472a94","x":280,"y":-36,"width":280,"height":53,"type":"text","text":"激活血小板聚集成团"},
+		{"id":"48008502d1df2fc1","x":620,"y":-35,"width":297,"height":50,"type":"text","text":"形成止血栓，填塞伤口"},
+		{"id":"a56a9d9bcecd3bd3","x":-107,"y":-37,"width":307,"height":55,"type":"text","text":"内膜受损,激活凝血系统"},
+		{"id":"785e67246ca3ab60","x":-235,"y":-280,"width":475,"height":60,"type":"text","text":"主要由血小板和某些血浆成分共同完成"}
+	],
+	"edges":[
+		{"id":"e86ef48099b9ff90","fromNode":"36fe06ab9f57f315","fromSide":"right","toNode":"e1c2a4d9113e161b","toSide":"left"},
+		{"id":"02425e8080482dbe","fromNode":"e1c2a4d9113e161b","fromSide":"top","toNode":"a5a85c6df5d911a5","toSide":"bottom"},
+		{"id":"9e16995b1d702f9a","fromNode":"e1c2a4d9113e161b","fromSide":"right","toNode":"a56a9d9bcecd3bd3","toSide":"left"},
+		{"id":"faa7c346a01619cb","fromNode":"a56a9d9bcecd3bd3","fromSide":"right","toNode":"02a2175d33472a94","toSide":"left"},
+		{"id":"c037ccbb4a675938","fromNode":"2034dc84799dfb1f","fromSide":"right","toNode":"388f370f81d07ad5","toSide":"left"},
+		{"id":"8ee94885619f3630","fromNode":"02a2175d33472a94","fromSide":"right","toNode":"48008502d1df2fc1","toSide":"left"},
+		{"id":"1c6fc9174df3b02d","fromNode":"48008502d1df2fc1","fromSide":"bottom","toNode":"2034dc84799dfb1f","toSide":"top"},
+		{"id":"a0590be102550913","fromNode":"3864cb5d2ff4b41b","fromSide":"right","toNode":"785e67246ca3ab60","toSide":"left"}
+	]
+}

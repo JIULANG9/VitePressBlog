@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"type":"text","text":"运动神经末梢动作电位","id":"af434a87ba05ad4b","x":-880,"y":54,"width":305,"height":58},
+		{"type":"text","text":"轴突末梢膜的去极化","id":"e9ab45b91299fe21","x":-540,"y":54,"width":300,"height":58},
+		{"type":"text","text":"神经末梢的电位变化引起$\\ce{Ca2+}$内流","id":"23daa4d5fc8d8bda","x":-200,"y":53,"width":440,"height":59},
+		{"type":"text","text":"释放乙酰胆碱到突触间隙","id":"ea7c2b97ed67b751","x":-880,"y":220,"width":320,"height":60},
+		{"type":"text","text":"去极化达到阈值,在肌细胞膜上引发动作电位","id":"80fc08917b4f1a69","x":-880,"y":380,"width":520,"height":60},
+		{"type":"text","text":"动作电位使肌浆网络释放钙离子","id":"d8f4ca77a2a222ef","x":-260,"y":378,"width":400,"height":62},
+		{"type":"text","text":"$\\ce{Ca2+}$促使突触囊泡与神经末梢膜融合","id":"bdb383a0e9c19040","x":290,"y":53,"width":450,"height":59},
+		{"type":"text","text":"乙酰胆碱与肌细胞膜上的乙酰胆碱受体结合","id":"e414e1e57ada672e","x":-520,"y":220,"width":520,"height":60},
+		{"type":"text","text":"$\\ce{Na+}$通道打开","id":"c97a0335d107d42f","x":40,"y":220,"width":220,"height":60},
+		{"type":"text","text":"$\\ce{Na+}$内流导致肌细胞终板电位去极化","id":"76b5051969655348","x":290,"y":220,"width":450,"height":60},
+		{"id":"4144a9cd9b0188f6","x":200,"y":378,"width":480,"height":62,"type":"text","text":"钙离子与肌动蛋白反应,引起肌纤维收缩"},
+		{"id":"42e720843ed631d5","x":-880,"y":560,"width":531,"height":74,"type":"text","text":"肌纤维收缩使骨骼肌收缩,完成兴奋的传递"},
+		{"type":"text","text":"## 神经-骨骼肌接头处的兴奋传递过程","id":"227d8433c5470297","x":-880,"y":-60,"width":680,"height":60}
+	],
+	"edges":[
+		{"id":"30cee6db5cdc1d43","fromNode":"af434a87ba05ad4b","fromSide":"right","toNode":"e9ab45b91299fe21","toSide":"left"},
+		{"id":"2ba306a810ef047e","fromNode":"e9ab45b91299fe21","fromSide":"right","toNode":"23daa4d5fc8d8bda","toSide":"left"},
+		{"id":"596b5f487b6914bb","fromNode":"ea7c2b97ed67b751","fromSide":"right","toNode":"e414e1e57ada672e","toSide":"left"},
+		{"id":"70160832e0e636f0","fromNode":"e414e1e57ada672e","fromSide":"right","toNode":"c97a0335d107d42f","toSide":"left"},
+		{"id":"7f45ffb6037ab565","fromNode":"c97a0335d107d42f","fromSide":"right","toNode":"76b5051969655348","toSide":"left"},
+		{"id":"a46fff39d4c0cc4c","fromNode":"76b5051969655348","fromSide":"bottom","toNode":"80fc08917b4f1a69","toSide":"top"},
+		{"id":"d437033b5b289001","fromNode":"23daa4d5fc8d8bda","fromSide":"right","toNode":"bdb383a0e9c19040","toSide":"left"},
+		{"id":"b94e8640b824463d","fromNode":"bdb383a0e9c19040","fromSide":"bottom","toNode":"ea7c2b97ed67b751","toSide":"top"},
+		{"id":"fae0586b36d51e07","fromNode":"80fc08917b4f1a69","fromSide":"right","toNode":"d8f4ca77a2a222ef","toSide":"left"},
+		{"id":"0e9d223aac412285","fromNode":"d8f4ca77a2a222ef","fromSide":"right","toNode":"4144a9cd9b0188f6","toSide":"left"},
+		{"id":"b62c29a17c2d702e","fromNode":"4144a9cd9b0188f6","fromSide":"bottom","toNode":"42e720843ed631d5","toSide":"top"}
+	]
+}
