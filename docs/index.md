@@ -6,6 +6,9 @@ hero:
   name: "九狼云墨"
   text: "创新引领未来"
   tagline: 科技与创意的完美结合
+  image:  
+    src: ./resources/BG.png
+    alt: 背景图
   actions:
     - theme: brand
       text: 编程技术
