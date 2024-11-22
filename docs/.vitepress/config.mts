@@ -22,8 +22,8 @@ const vitePressOptions = {
       }
     ],
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: '©2024 九狼云墨'
+      message: '版权 © 2019-至今 九狼云墨',
+      copyright: '备案号:<a href="https://beian.miit.gov.cn/">粤ICP备2021080769号</a>'
     }
   },
   base: '/VitePressBlog/',

@@ -7,7 +7,7 @@ hero:
   text: "创新引领未来"
   tagline: 科技与创意的完美结合
   image:  
-    src: ./resources/BG.png
+    src: home_bg.png
     alt: 背景图
   actions:
     - theme: brand
@@ -15,7 +15,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 生理学
-      link: /markdown-examples
+      link: /post/生理学(2023)/学习计划.md
     - theme: alt
       text: 护理基础
       link: /api-examples
