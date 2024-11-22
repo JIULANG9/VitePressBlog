@@ -20,6 +20,7 @@ const vitePressOptions = {
       copyright: '©2024 九狼云墨'
     }
   },
+  base: '/VitePressBlog/',
   lang: 'zh-CN'
 }
 
